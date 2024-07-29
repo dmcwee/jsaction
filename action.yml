@@ -1,0 +1,12 @@
+name: 'jsaction'
+description: 'A Node.js action for github'
+inputs:
+  tenant-id:
+    description: 'Azure AD tenant ID'
+    required: true
+  outputs:
+    result:
+      description: 'The result from the JS file'
+  runs:
+    using: 'node20'
+    main: 'index.js'
